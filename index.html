@@ -4,88 +4,107 @@
   <link rel="icon" type="image/x-icon" href="https://res.cloudinary.com/diehyknwd/image/upload/v1733356534/favicon_u1ktel.ico">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Anomic - Govt Mockup</title>
+  <title>Anomic Web Development</title>
   <style>
     body {
       font-family: Tahoma, Arial, sans-serif;
-      background-color: #d4c2a8; /* Faded tan for desert town feel */
-      color: #2e2b26; /* Darker brownish tone for text */
+      background-color: #ffffff;
+      color: #000000;
       margin: 0;
       padding: 0;
     }
 
     /* Top Navigation Bar */
     .top-bar {
-      background: linear-gradient(90deg, #4d3d2e, #7a5a3f); /* Brown gradient for a rustic look */
-      padding: 12px 0;
-      text-align: center;
-      border-bottom: 3px solid #3b2b1a; /* Darker brown border */
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: linear-gradient(45deg, #6699CC, #99CCFF, #ffffff);
+      padding: 10px 20px;
+      border-bottom: 2px solid #1E90FF;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
     }
 
-    .top-bar a {
-      color: #f8e4c9; /* Light beige for contrast */
+    .nav-links {
+      display: flex;
+      gap: 15px;
+    }
+
+    .nav-links a {
+      color: #ffffff;
       text-decoration: none;
-      margin: 0 20px;
-      font-size: 15px;
+      font-size: 14px;
       font-weight: bold;
     }
 
-    .top-bar a:hover {
+    .nav-links a:hover {
       text-decoration: underline;
+    }
+
+    .topbar-icon img {
+      height: 30px;
     }
 
     /* Content Section */
     .content {
-      margin: 25px;
-      padding: 20px;
-      border: 2px solid #8b7355; /* A worn brown border */
-      background-color: #f0e5d8; /* Light sand color */
+      margin: 20px;
+      padding: 15px;
+      border: 1px solid #c0c0c0;
+      background-color: #f4f4f4;
     }
 
     h1 {
-      font-size: 24px;
-      color: #5c432c; /* Stronger brown tone */
-      border-bottom: 3px solid #5c432c;
+      font-size: 22px;
+      color: #1E90FF;
+      border-bottom: 2px solid #1E90FF;
       padding-bottom: 5px;
     }
 
     p {
-      font-size: 15px;
-      line-height: 1.6;
+      font-size: 14px;
+      line-height: 1.5;
     }
 
     /* Footer */
     .footer {
       text-align: center;
-      padding: 12px;
-      font-size: 13px;
-      background-color: #3b2b1a;
-      color: #f8e4c9;
-      border-top: 2px solid #8b7355;
+      padding: 10px;
+      font-size: 12px;
+      background-color: #e6e6e6;
+      border-top: 1px solid #c0c0c0;
+      position: absolute;
+      bottom: 0;
+      width: 100%;
     }
   </style>
 </head>
 <body>
   <!-- Top Navigation Bar -->
   <div class="top-bar">
-    <a href="#home">Home</a>
-    <a href="#index">Index</a>
-    <a href="#about">About</a>
-    <a href="#contact">Contact</a>
-    <a href="#wiki">Wiki</a>
-    <a href="#game">Game</a>
+    <div class="nav-links">
+      <a href="#home">Home</a>
+      <a href="#index">Index</a>
+      <a href="#about">About</a>
+      <a href="#wiki">Wiki</a>
+      <a href="#game">Game</a>
+      <a href="#contact">Contact</a>
+    </div>
+    <div class="topbar-icon">
+      <img src="https://res.cloudinary.com/diehyknwd/image/upload/v1742111723/image-removebg-preview_7_gipyg6.png" alt="Icon">
+    </div>
   </div>
 
   <!-- Main Content -->
   <div class="content">
     <h1>Welcome to Anomic</h1>
-    <p>This is a website inspired by <strong>Anomic</strong>, a chaotic lawless town where citizens must fight to survive. The aesthetic follows a worn-out, western-style design with early 2000s business-use web elements.</p>
+    <p>This is a website inspired by <strong>Anomic</strong>, a chaotic lawless town where citizens must fight to survive. The aesthetic follows a worn-out, western-style design with early 2000s web elements for business-use.</p>
     <p>Explore the different sections using the navigation bar above.</p>
+    <p>Now Available on America Online</p>
   </div>
 
   <!-- Footer -->
   <div class="footer">
-    &copy; 2025 Anomic Govt Mockup. All Rights Reserved.
+    &copy; <a href="https://github.com/AnomicStudios">2025 Anomic.</a> All Rights Reserved.
   </div>
 </body>
 </html>
